@@ -1,0 +1,19 @@
+﻿Сборка начата 24.02.2023 16:07:11.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\lab4\Lab_4MS\ClientB\ClientB\ClientB.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\ClientB.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         ClientB.vcxproj -> C:\Users\User\Desktop\lab4\Lab_4MS\ClientB\x64\Debug\ClientB.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ClientB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ClientB.tlog\ClientB.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\lab4\Lab_4MS\ClientB\ClientB\ClientB.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.07
