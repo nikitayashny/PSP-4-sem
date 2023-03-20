@@ -1,0 +1,19 @@
+﻿Сборка начата 10.03.2023 15:41:36.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\ServerC.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         ServerC.vcxproj -> C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\x64\Debug\ServerC.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ServerC.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ServerC.tlog\ServerC.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.09
