@@ -1,0 +1,22 @@
+﻿Сборка начата 10.03.2023 15:18:36.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\ClientNP\ClientNP.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\ClientNP.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\ClientNP.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ClientNP.cpp
+         ClientNP.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\Debug\ClientNP.exe" /INCREMENTAL /ILK:"Debug\ClientNP.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\Debug\ClientNP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\Debug\ClientNP.lib" /MACHINE:X86 Debug\ClientNP.obj
+         ClientNP.vcxproj -> C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\Debug\ClientNP.exe
+       FinalizeBuildStatus:
+         Файл "Debug\ClientNP.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\ClientNP.tlog\ClientNP.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\Lab_6\ServerNP\ClientNP\ClientNP.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.84
