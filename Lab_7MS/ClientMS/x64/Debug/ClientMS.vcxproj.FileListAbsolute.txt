@@ -1,0 +1,4 @@
+D:\Study\ПиБСП\Lab_7MS\ClientMS\x64\Debug\ClientMS.exe
+C:\Users\danik\Desktop\Lab_7MS\ClientMS\x64\Debug\ClientMS.exe
+D:\2k2s\Шиман мои\7\Lab_7MS\ClientMS\x64\Debug\ClientMS.exe
+C:\Users\nikit\Desktop\univer\2cource2sem\PCP\Lab_7MS\ClientMS\x64\Debug\ClientMS.exe
