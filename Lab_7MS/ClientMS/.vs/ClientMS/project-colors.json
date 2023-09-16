@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "76198fb2-edfb-42fc-acec-65c255a4c15f": {
+      "ProjectGuid": "76198fb2-edfb-42fc-acec-65c255a4c15f",
+      "DisplayName": "ClientMS",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

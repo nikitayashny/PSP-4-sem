@@ -1,0 +1,7 @@
+﻿  ClientNP.cpp
+D:\2k2s\Шиман мои\6\Lab_6MS\ClientNP\ClientNP\ClientNP.cpp(39): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 105 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  ClientNP.vcxproj -> D:\2k2s\Шиман мои\6\Lab_6MS\ClientNP\x64\Release\ClientNP.exe

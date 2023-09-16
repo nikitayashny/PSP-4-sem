@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "37a8e7a6-1ec5-48b1-84dd-9d3fcb5ee0bc": {
+      "ProjectGuid": "37a8e7a6-1ec5-48b1-84dd-9d3fcb5ee0bc",
+      "DisplayName": "RConsole",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

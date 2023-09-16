@@ -1,0 +1,28 @@
+﻿Сборка начата 03.03.2023 17:23:05.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ClientU.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /FC /errorReport:prompt ClientU.cpp
+         ClientU.cpp
+     1>C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.cpp(54,7): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.cpp(28,10): warning C4101: serverSocket: неиспользованная локальная переменная
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\ПСП\lab3\ClientU\x64\Debug\ClientU.exe" /INCREMENTAL /ILK:"x64\Debug\ClientU.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\ПСП\lab3\ClientU\x64\Debug\ClientU.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\ПСП\lab3\ClientU\x64\Debug\ClientU.lib" /MACHINE:X64 x64\Debug\ClientU.obj
+         ClientU.vcxproj -> C:\Users\User\Desktop\ПСП\lab3\ClientU\x64\Debug\ClientU.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ClientU.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ClientU.tlog\ClientU.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.cpp(54,7): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         C:\Users\User\Desktop\ПСП\lab3\ClientU\ClientU\ClientU.cpp(28,10): warning C4101: serverSocket: неиспользованная локальная переменная
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.65

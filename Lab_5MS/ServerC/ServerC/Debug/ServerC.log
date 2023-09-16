@@ -1,0 +1,28 @@
+﻿Сборка начата 17.03.2023 15:22:49.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\ServerC.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ServerC.cpp
+         ServerC.cpp
+     1>C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(51,17): error C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(20,7): warning C4101: nameServer: неиспользованная локальная переменная
+     1>C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(142,66): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(20,7): warning C4101: nameServer: неиспользованная локальная переменная
+
+
+       "C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(51,17): error C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Users\User\Desktop\ПСП\Lab_5MS\ServerC\ServerC\ServerC.cpp(142,66): error C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+
+    Предупреждений: 1
+    Ошибок: 2
+
+Прошло времени 00:00:00.76

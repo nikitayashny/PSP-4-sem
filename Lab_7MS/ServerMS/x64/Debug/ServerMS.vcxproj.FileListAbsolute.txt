@@ -1,0 +1,5 @@
+D:\Study\ПиБСП\Lab_7MS\ServerMS\x64\Debug\ServerMS.exe
+C:\Users\danik\Desktop\Lab_7MS\ServerMS\x64\Debug\ServerMS.exe
+D:\2k2s\Шиман мои\7\Lab_7MS\ServerMS\x64\Debug\ServerMS.exe
+D:\Lab_7MS\ServerMS\x64\Debug\ServerMS.exe
+C:\Users\User\Desktop\ПСП\Lab_7MS\ServerMS\x64\Debug\ServerMS.exe

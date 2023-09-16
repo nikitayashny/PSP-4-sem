@@ -1,0 +1,70 @@
+﻿Сборка начата 26.05.2023 15:23:51.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Win32Project1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\Win32Project1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,9): warning C4616: предупреждение #pragma: предупреждение с номером "2664" не является действительным предупреждением компилятора
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,31): warning C4081: требуется "newline"; обнаружен ";"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(41,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(51,13): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(87,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(87,23): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(114,47): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(114,23): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(129,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(129,22): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(91,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(141,45): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(141,22): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(150,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(150,22): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(142,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(160,45): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(160,22): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(161,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(172,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(172,22): message : Конечному типу не соответствует ни одной функции с данным именем в области видимости
+       C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(70,6): message : см. объявление "QueueUserAPCWrapper"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,9): warning C4616: предупреждение #pragma: предупреждение с номером "2664" не является действительным предупреждением компилятора
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,31): warning C4081: требуется "newline"; обнаружен ";"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(41,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(51,13): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(91,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(142,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(161,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+
+       "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(87,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(114,47): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(129,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(141,45): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(150,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(160,45): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(172,46): error C2664: "void QueueUserAPCWrapper(PAPCFUNC,Contact *)": невозможно преобразовать аргумент 1 из "void (__cdecl *)(DWORD)" в "PAPCFUNC"
+
+    Предупреждений: 9
+    Ошибок: 7
+
+Прошло времени 00:00:02.01

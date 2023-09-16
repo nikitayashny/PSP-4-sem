@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0babd5b2-d466-4989-b84e-87b2bd71e162": {
+      "ProjectGuid": "0babd5b2-d466-4989-b84e-87b2bd71e162",
+      "DisplayName": "ClientNP_Transact",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,62 @@
+﻿Сборка начата 04.06.2023 23:24:27.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Win32Project1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Win32Project1.pch" /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,9): warning C4616: предупреждение #pragma: предупреждение с номером "2664" не является действительным предупреждением компилятора
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,31): warning C4081: требуется "newline"; обнаружен ";"
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(41,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(51,13): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(91,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(88,7): warning C4101: lobuf: неиспользованная локальная переменная
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(142,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(140,6): warning C4101: lobuf: неиспользованная локальная переменная
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(140,13): warning C4101: libuf: неиспользованная локальная переменная
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(161,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(162,6): warning C4101: lobuf: неиспользованная локальная переменная
+     1>C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(162,13): warning C4101: libuf: неиспользованная локальная переменная
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Win32Project1.pch" /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt ErrorFunctions.cpp Win32Project1.cpp
+         ErrorFunctions.cpp
+         Win32Project1.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.dll" /INCREMENTAL /ILK:"Debug\Win32Project1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\ErrorFunctions.obj
+         Debug\stdafx.obj
+         Debug\Win32Project1.obj
+            Создается библиотека C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.lib и объект C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.exp
+         Win32Project1.vcxproj -> C:\Users\User\Desktop\ПСП\Lab08-10\ConcurrentServer\Debug\Win32Project1.dll
+       FinalizeBuildStatus:
+         Файл "Debug\Win32Project1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Win32Project1.tlog\Win32Project1.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\Win32Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,9): warning C4616: предупреждение #pragma: предупреждение с номером "2664" не является действительным предупреждением компилятора
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\dllmain.cpp(2,31): warning C4081: требуется "newline"; обнаружен ";"
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(34,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(41,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(51,13): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(91,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(88,7): warning C4101: lobuf: неиспользованная локальная переменная
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(142,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(140,6): warning C4101: lobuf: неиспользованная локальная переменная
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(140,13): warning C4101: libuf: неиспользованная локальная переменная
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(161,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(162,6): warning C4101: lobuf: неиспользованная локальная переменная
+         C:\Users\User\Desktop\ПСП\Lab08-10\Win32Project1\Win32Project1\PrototypeService.h(162,13): warning C4101: libuf: неиспользованная локальная переменная
+
+    Предупреждений: 14
+    Ошибок: 0
+
+Прошло времени 00:00:01.54
